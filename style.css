@@ -1,0 +1,297 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrapper {
+        position: relative;
+    height:63vh;
+    width: 100%;
+    background-color: pink;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.wrapper img {
+    position: relative;
+    background-color: pink;
+    width: 100%;
+    transition: .5s ease;
+    opacity: .4;
+    height: 63vh;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content h1 {
+    position: absolute;
+    font-size: 266.31px;
+    color: #fff;
+    white-space: nowrap;
+    font-family: myFirstFont;
+    display: flex;
+    justify-content: center;
+    top: -9%;
+}
+
+.content p {
+    position: absolute;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    top: 29%;
+}
+
+.down {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+    top: 39%;
+    display: flex;
+    justify-content: center;
+
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(special-valentine/Special_Valentine.ttf);
+}
+
+.row1 li {
+	height: auto;
+}
+
+.row2 li {
+	height: auto;
+}
+
+.row3 li{
+	height: auto;
+}
+
+.design{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: #c93756;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    margin-top: -5px;
+}
+
+.nav li:hover{
+    opacity: .5;
+    width: 33;
+}
+
+a{
+    text-decoration: none;
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav li :hover {
+    opacity: .6;
+}
+
+
+
+.about{
+    background-color: #fff;
+    background-repeat: no-repeat;
+    height: 77vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.beatrice img{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.beatrice h1{
+	font-family: myFirstFont;
+	font-size: 108px;
+	display: flex;
+	justify-content: center;
+	color: #c93756;
+}
+
+.beatrice p{
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #d04f6b;
+	margin-left: 20%;
+	margin-right: 20%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.blossom {
+    background-color: pink;
+    height: 89vh;
+    transition: .5s ease;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+}
+
+.blossom img {
+    position: relative;
+    height: 89vh;
+    background-color: pink;
+    transition: .5s ease;
+    opacity: .7;
+    width: 100%;
+}
+
+input[type=text] {
+    margin: auto;
+    box-sizing: border-box;
+    border: solid;
+    background-color: #fff;
+}
+
+input[type=submit] {
+color: white;
+    padding: 12px 20px;
+    background-color: #f08f90;
+    display: flex;
+    /* align-items: center; */
+    /* position: absolute; */
+    /* justify-content: center; */
+    margin-left: 38%;
+}
+
+input[type=text],
+label {
+        width: 101%;
+    padding: 12px 20px;
+    color: #c93756;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    position: initial;
+}
+
+.forms {
+   position: absolute;
+    width: 41%;
+    background-color: #C93756;
+    display: flex;
+    height: 70%;
+    justify-content: center;
+    margin-left: 27%;
+    margin-top: 15vh;
+}
+
+.forms img {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+        margin-top: 3%;
+}
+
+.text h1 {
+  display: flex;
+    font-family: myFirstfont;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 100px;
+    padding-top: 10%;
+}
+
+
+::placeholder {
+    color: #c93756;
+}
+
+textarea {
+    width: 342px;
+    height: 16vh;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: #c93756;
+    padding: 10px 20px;
+}
+
+.footer{
+    position: relative;
+}
+
+.footer p{
+    color: #c93756;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 91vh;
+}
